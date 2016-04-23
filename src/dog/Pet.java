@@ -3,6 +3,7 @@ package dog;
 public class Pet {
 	private String name;
 	private int age;
+	private String kind;
 
 	public String bark() {
 		return "à»à»à»";
@@ -33,5 +34,13 @@ public class Pet {
 			System.out.println("Êı¾İ´íÎó");
 		} else
 			this.age = age;
+	}
+
+	public String getKind() {
+		return kind;
+	}
+
+	public void setKind(String kind) {
+		this.kind = kind;
 	}
 }
