@@ -11,7 +11,6 @@ public class Master {
 		myDog.eat(f);
 		myDog.sleep();
 		
-		
 		String myName = "’≈»˝";
 		
 		System.out.println(sayHello(myName));
@@ -20,6 +19,14 @@ public class Master {
 		pig.setName("÷Ì÷Ìœ¿");
 		String s = "÷Ì»‚";
 		pig.eat(s);
+		
+		Cat cat = new Cat();
+		String c = cat.bark();
+		System.out.println(c);
+		
+		Pig pig1 = new Pig();
+		String d = pig.bark();
+		System.out.println(d);
 	}
 	public static String sayHello(String name){
 		return "Hello "+name;
